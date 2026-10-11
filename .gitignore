@@ -1,0 +1,8 @@
+Binaries/
+Intermediate/
+DerivedDataCache/
+.vs/
+*.sln
+*.vcxproj*
+*.code-workspace
+Saved/

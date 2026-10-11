@@ -1,0 +1,27 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.0",
+	"FriendlyName": "UI Focus Debugger",
+	"Description": "Runtime UMG/Slate focus debugger: in-viewport overlay (focus/hover/mismatch, navigation decision replay) plus a crash-safe JSONL session recorder for post-hoc analysis by humans or AI agents. 运行时 UMG/Slate 焦点调试器：画面内叠加层（焦点/hover/失配、导航决策回放）+ 崩溃安全的 JSONL 会话记录仪，供人类或 AI agent 事后分析。",
+	"Category": "Debug Tools",
+	"CanContainContent": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "UiFocusDebugger",
+			"Type": "DeveloperTool",
+			"LoadingPhase": "PostDefault"
+		},
+		{
+			"Name": "UiFocusDebuggerCommonUI",
+			"Type": "DeveloperTool",
+			"LoadingPhase": "None"
+		},
+		{
+			"Name": "UiFocusDebuggerEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	]
+}
